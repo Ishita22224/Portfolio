@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Ishita - Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+    <nav>
+        <div class="nav-bar">
+            <a href="#hello-world">Home</a>
+            <a href="#about-me">About Me</a>
+            <a href="#project-head">Projects</a>
+            <a href="#contact-head">Contact Me</a>
+        </div>
+    </nav>
+    <body>
+        <div id="hello-world">            
+            
+            <div id="welcome">
+                Hi, I am <span id="name">Ishita</span> <br><p id="small">and this is</p>My Personal Portfolio!
+                <br>
+                <p id="deg">B.Tech CSAM UnderGraduate</p>
+                
+                <a href="https://github.com/Ishita22224/CV"><button>Download CV</button></a>
+                <a href="#contact-head"><button>Contact Me</button></a>    
+            </div>
+            <div id="image">
+                <img src="Asset\mainn.jpg" alt="">
+            </div>
+        </div>
+        <hr>
+        
+        <div id="about-me">
+            <div id="image2">
+                <img src="Asset\main.jpg" alt="">
+            </div>
+            <div class="information">
+                <h1>About Me</h1>
+                <div id="start">
+                    <p>Hi, I am <span class="color">Ishita</span>. I'm a second-year <span class="color">CSAM</span> (Computer Science and Applied Mathematics) undergrad at IIIT Delhi who's passionate about <span class="color">coding</span> and excelling in academics. Apart from that, I enjoy playing <span class="color">badminton</span> and <span class="color">working out</span>.</p>
+                </div>
+                <div id="tags">
+                    <a href="#" class="display" onclick="document.getElementById('info1').style.display='flex'; document.getElementById('info2').style.display='none'; return false;">Educational Qualifications</a>
+                    <a href="#" class="display" onclick="document.getElementById('info1').style.display='none'; document.getElementById('info2').style.display='flex'; return false;">Skills</a>
+                    <div id="info2" style="display: none;" class="tag">                        
+                        
+                            Java <br>
+                            C <br>
+                            Python <br>
+                            HTML <br>
+                            CSS <br>
+                            JavaScript <br>
+                        
+                    </div>
+                    
+                    <div id="info1" class="tag">
+                        <div class="study">
+                            <span class="heads">Indraprastha Institute of Information Technology, Delhi
+                                (IIIT Delhi)</span>
+                            <br><br>
+                            <span class="heads">CSAM'26</span>
+                        </div>
+
+                        <div class="study">
+                            <span class="heads">Dhruva Public School</span>
+                             <br><br><br>
+                             <p class="heads">12th</p>: 98% 
+                        </div>
+
+                        <div class="study">
+                            <span class="heads">Seth Anandram Jaipuria School </span><br>
+                            <span class="heads">10th</span>: 98.4%
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h1 id="project-head" class="head">My Projects</h1>
+        <div id="projects">
+            
+            <div class="proj">
+                <img src="Asset\HomePage.png" alt="" class="image">     
+                
+            
+                <div class="middle">
+                    <div class="text"><a href="https://github.com/Ishita22224/Stick-Hero-Application.git"><img src="Asset\link.jpg" alt="" id="linker-img"></a></div>
+                    
+                </div>
+                <br>
+                Stick Hero Application
+            </div>
+
+            <div class="proj">
+                <img src="Asset\linker.jpeg" alt="" class="image">
+                <div class="middle">
+                    <div class="text"><a href="https://github.com/Ishita22224/Operating-System/blob/main/Loader%20From%20Scratch%20in%20C.zip"><img src="Asset\link.jpg" alt="" id="linker-img"></a></div>
+                </div>
+                <br>
+                Linker and Loader from Scratch in C
+            </div>
+            <div class="proj">
+                <img src="Asset\simonGame2.png" alt="" class="image">
+                <div class="middle">
+                    <div class="text"><a href="https://github.com/Ishita22224/Simon-Game.git"><img src="Asset\link.jpg" alt="" id="linker-img"></a></div>
+                    
+                </div>
+                <br>
+                Simon Game
+            </div>
+            <div class="proj">                      
+                <img src="Asset\zootopia.jpg" alt="" class="image">
+                <div class="middle">
+                    <div class="text"><a href="https://github.com/Ishita22224/ZooTopia.git"><img src="Asset\link.jpg" alt="" id="linker-img"></a></div>
+                    
+                </div>
+                <br>
+                ZooTopia
+            </div>
+            <div class="proj">
+                <img src="Asset\shell.jpg" alt="" class="image">
+                <div class="middle">
+                    <div class="text"><a href="https://github.com/Ishita22224/Operating-System/blob/main/Simple%20Shell%20in%20C.zip"><img src="Asset\link.jpg" alt="" id="linker-img"></a></div>
+                   
+                </div>
+                <br>
+                Simple Shell in C
+            </div>
+            
+
+        </div>
+        <div id="see-more">
+            <a href="https://github.com/Ishita22224"><button>See More</button></a>
+        </div>
+
+        <hr>
+        <h1 id="contact-head" class="head">Contact Me</h1>
+        <div id="contact-me">
+            <div class="contact"><a href="mailto:ishita22224@iiitd.ac.in"><i class="fa-solid fa-envelope"></i></a>ishita22224@iiitd.ac.in</div>
+            <div class="contact"><i class="fa-solid fa-phone"></i>icon +91 8595980362</div>
+            <div class="links">
+                <a href="https://www.instagram.com/ishitad7s/"><i class="fa-brands fa-square-instagram"></i></a><a href="https://www.linkedin.com/in/ishita-64791024b/"><i class="fa-brands fa-linkedin"></i></a><a href="https://github.com/Ishita22224"><i class="fa-brands fa-square-github"></i></a>
+            </div>
+            
+        </div>        
+    </body>
+    <footer>
+        <div class="footer">
+            ISHITA
+        </div>
+    </footer>
+</body>
+</html>
